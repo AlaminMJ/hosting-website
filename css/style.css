@@ -176,7 +176,7 @@ font-weight: bold;
 }
 
 /* Tablet and under */
-@media(max-width:768px){
+@media (max-width:768px){
 .grid,
 .showcase .grid,
 .stats .grid,
@@ -202,9 +202,14 @@ font-weight: bold;
 }
 }
 /* mobile */
-@media (max-width:500px){
+@media (max-width: 500px){
     .navbar{
         height: 110px;
+    }
+    .showcase .showcase-form{
+        justify-self: center;
+        margin: auto;
+        width: 95%;
     }
     .navbar .flex{
         flex-direction: column;        
@@ -213,5 +218,6 @@ font-weight: bold;
         background-color: rgba(0, 0, 0, 0.1);
         padding: 10px;
     }
-    
+   
+     
 }
